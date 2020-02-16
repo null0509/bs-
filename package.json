@@ -1,0 +1,35 @@
+{
+  "name": "gzhipin-client_final",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.0.0",
+    "axios": "^0.17.1",
+    "js-cookie": "^2.2.0",
+    "prop-types": "^15.6.0",
+    "rc-queue-anim": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.5",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.6",
+    "react-app-rewired": "^1.4.1",
+    "react-scripts": "1.1.0",
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "nodemon server/server.js"
+  },
+  "proxy": "http://localhost:3005"
+}
